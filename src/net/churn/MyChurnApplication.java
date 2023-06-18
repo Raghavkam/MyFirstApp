@@ -2,6 +2,10 @@ package net.churn;
 
 import java.util.*;
 
+/**
+ * MyChurnApplication.java
+ *
+ */
 public class MyChurnApplication {
     public static String startString = "";
 
@@ -19,6 +23,10 @@ public class MyChurnApplication {
 
     }
 
+    /**
+     * Changes a String.
+     *
+     */
     public static void changeString() {
         for (int i = 0; i < startString.length(); i++) {
             if (startString.substring(i, i + 1).equals("a")) {
